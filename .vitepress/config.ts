@@ -4,6 +4,8 @@ export default defineConfig({
   lang: 'zh',
   title: 'docs',
   description: 'docs',
+
+  // for depoly to GitHub Pages
   base: '/docs/',
 
   themeConfig: {

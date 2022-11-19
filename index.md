@@ -2,11 +2,8 @@
 layout: home
 hero:
   name: Xepod
-  text: Another Windows Package Manager
+  text: "Another\nPackage Manager\nfor Windows"
   tagline: Work in process && Very early stage
-  # image:
-  # src: /logo.png
-  # alt: VitePress
   actions:
     - theme: brand
       text: 开始体验

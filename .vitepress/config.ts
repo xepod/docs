@@ -16,7 +16,7 @@ export default defineConfig({
         items: [
           { text: '简介', link: '/docs/introduction' },
           { text: '命令', link: '/docs/command' },
-          { text: 'Rack', link: '/docs/manifest' },
+          { text: '为什么又一款包管理', link: '/docs/why-another' },
         ],
       },
     ],

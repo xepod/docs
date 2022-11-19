@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'zh',
   title: 'docs',
-  description: 'blog',
-  base: '/',
+  description: 'docs',
+  base: '/docs/',
 
   themeConfig: {
     siteTitle: 'Xepod',

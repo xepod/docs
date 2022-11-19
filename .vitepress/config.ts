@@ -7,7 +7,17 @@ export default defineConfig({
   base: '/',
 
   themeConfig: {
-    siteTitle: 'xepod',
+    siteTitle: 'Xepod',
+
+    sidebar: [
+      {
+        items: [
+          { text: '简介', link: '/docs/introduction' },
+          { text: '命令', link: '/docs/command' },
+          { text: 'Rack', link: '/docs/manifest' },
+        ],
+      },
+    ],
 
     footer: {
       message: 'Released under the MIT License.',

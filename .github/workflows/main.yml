@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: '16'
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-          cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
+          cache-dependency-path: ./package-lock.json
       - run: npm install && npm run build
       - uses: actions/upload-pages-artifact@v1
         with:
